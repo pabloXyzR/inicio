@@ -150,8 +150,7 @@ section {
     border: 2px solid #382924;
 }
 
-.listarTarefas button {
-    cursor: pointer;
+button.btnEditar {
     border-radius: 5px;
     background-color: #382924;
     padding: 1rem;
@@ -161,7 +160,23 @@ section {
     border: 2px solid #382924;
 }
 
-.listarTarefas button:hover {
+button.btnRemover {
+    border-radius: 5px;
+    background-color: #DB4B23;
+    padding: 1rem;
+    background-image: url(./assets/remove.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #DB4B23;
+}
+
+button.btnRemover:hover {
+    cursor: pointer;
+    border: 2px solid #382924;
+}
+
+button.btnEditar:hover {
+    cursor: pointer;
     border: 2px solid #DB4B23;
 }
 
