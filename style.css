@@ -138,12 +138,31 @@ section {
 }
 
 .listarTarefas p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
     border-radius: 5px;
     text-align: center;
     width: 100%;
     padding: 1rem;
     background-color: #E89D10;
     border: 2px solid #382924;
+}
+
+.listarTarefas button {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #382924;
+    padding: 1rem;
+    background-image: url(./assets/pencil.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #382924;
+}
+
+.listarTarefas button:hover {
+    border: 2px solid #DB4B23;
 }
 
 /* RODAPÉ ESTILO SENAI DE QUALIDADE */

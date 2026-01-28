@@ -53,6 +53,12 @@ function exibirTarefas() {
         // TEXTCONTENT PARA ESCREVER O VALOR ATRIBUIDO USANDO O TAMANHO DA LISTA COM O INDEX PARA IDENTIFICAR A POSIÇÃO
         novaTarefa.textContent = listaDeTarefas[idx];
 
+        //CRIANDO BOTÃO PARA REMOVER UMA TAREFA
+        let botaoExcluir = document.createElement("button");
+
+        //METODO PARA INSERIR O BOTÃO NO ITEM DA LISTA
+        novaTarefa.appendChild(botaoExcluir);
+
         // METODO PARA INSERIR O NOVO ELEMENTO "LI" NA LISTA HTML
         listarTarefas.appendChild(novaTarefa);
     }
