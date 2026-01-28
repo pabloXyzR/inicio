@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+/* ESTILIZAÇÃO GERAL DA PAGINA */
+* {
+    font-family: "Bungee", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #382924;
+}
+
+/* COR DE FUNDO DO BODY */
+body {
+    background-color: antiquewhite;
+}
+
+/* ESTILIZAÇÃO DO NAVBAR */
+nav {
+    padding: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E89D10;
+    border-bottom: 3px solid #382924;
+}
+
+/* ESTILIZAÇÃO TITULO DO NAVBAR */
+nav h1 {
+    font-size: 1.5rem;
+    color: #382924;
+}
+
+/* TAMANHO DO ICONE SOCIAL */
+img {
+    width: 3rem;
+}
+
+/* AJUSTE DE TAMANHO DO CONTEUDO PRINCIPAL*/
+main {
+    display: flex;
+    padding: 2rem;
+}
+
+/* DEFININDO TAMANHO E ESPAÇAMENTO DAS SEÇÕES */
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 25rem;
+    gap: 2rem;
+}
+
+/* BORDA PARA SEPARAR SEÇÕES */
+.section1 {
+    border-right: 2px solid #DB4B23;
+}
+
+/* TITULO DA SEÇÃO 1 */
+.section1 h2 {
+    font-size: 30px;
+}
+
+/* ESTILIZAÇÃO DO CAMPO DE TEXTO DA SEÇÃO 1 */
+.section1 input {
+    padding: 1rem;
+    width: 50%;
+    border: 2px solid #DB4B23;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+/* ESTILIZAÇÃO DO BOTÃO DE ADICIONAR TAREFAS */
+.addTarefa {
+    margin-right: 20px;
+    color: #E89D10;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #382924;
+}
+
+.limparLista {
+    color: #382924;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #DB4B23;
+}
+
+/* EFEITO AO PASSAR MOUSE ENCIMA DO BOTÃO*/
+.addTarefa:hover {
+    cursor: pointer;
+    font-weight: 900;
+    border: 2px solid #E89D10;
+    transition: 0.1s ease-in;
+}
+
+.limparLista:hover {
+    cursor: pointer;
+    font-weight: 900;
+    border: 2px solid #382924;
+    transition: 0.1s ease-in;
+}
+
+/* DEFININDO TAMANHO PARA MENSAGEM DE ADIÇÃO DE TAREFA */
+.section1 p {
+    font-size: 15px;
+}
+
+/* ESTILIZAÇÃO, ESPAÇAMENTO E TAMANHO DA LISTA DE TAREFAS (E TAMBÉM ESTILIZAÇÃO DA SCROLLBAR)*/
+.areaTarefas {
+    max-height: 400px;
+    width: 80%;
+    overflow-y: auto;
+    margin-top: 10px;
+    scrollbar-width: 20px;
+    scrollbar-color: #E89D10 transparent;
+    scroll-behavior: smooth;
+}
+
+/* ORGANIZANDO EM COLUNA A SEÇÃO 2*/
+.section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.listarTarefas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0.5rem;
+}
+
+.listarTarefas p {
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #E89D10;
+    border: 2px solid #382924;
+}
+
+/* RODAPÉ ESTILO SENAI DE QUALIDADE */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #382924;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* CORZINHA DO &COPY */
+footer span {
+    color: #E89D10;
+}
