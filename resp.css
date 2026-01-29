@@ -41,13 +41,9 @@
     }
 
     .areaTarefas {
-        max-height: 300px;
+        margin: 0;
+        border: 0;
+        max-height: 265px;
         width: 100%;
-
-    }
-
-    footer {
-        position: absolute;
-        bottom: 0;
     }
 }

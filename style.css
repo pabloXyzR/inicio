@@ -13,6 +13,7 @@
 /* COR DE FUNDO DO BODY */
 body {
     background-color: antiquewhite;
+    height: 100vh;
 }
 
 /* ESTILIZAÇÃO DO NAVBAR */
@@ -41,7 +42,6 @@ img {
 main {
     display: flex;
     padding: 2rem;
-    flex: 1;
 }
 
 /* DEFININDO TAMANHO E ESPAÇAMENTO DAS SEÇÕES */
@@ -132,7 +132,6 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
-    padding: 0.5rem;
 }
 
 .listarTarefas p {
