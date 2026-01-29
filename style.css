@@ -41,6 +41,7 @@ img {
 main {
     display: flex;
     padding: 2rem;
+    flex: 1;
 }
 
 /* DEFININDO TAMANHO E ESPAÇAMENTO DAS SEÇÕES */
