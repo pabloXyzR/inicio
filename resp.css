@@ -37,4 +37,9 @@
     .section2 p {
         width: 90%;
     }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
 }
